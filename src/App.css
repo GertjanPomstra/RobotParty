@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(to left, #009030, #003090);
+}
+
+h1 {
+  color: #60F0F0;
+}
+
+p {
+  font-weight: bold;
+}
+
 .App {
   text-align: center;
 }
@@ -37,26 +51,28 @@
   }
 }
 
-
-
 .List {
   list-style: none;
   display: flex;
   align-items: center;
-  width: 50rem;
+  width: 90%;
   margin: 0rem auto;
-  border: 0.1rem solid rgba(0, 0, 0, 0.233);
+  border: 0.2rem solid rgba(0, 0, 0, 0.233);
+  border-radius: 1rem;
   padding: 1rem;
   justify-content: space-between;
+  background-color: #60F0F0;
+  margin: 1rem;
 }
 
 .List-header {
   display: flex;
   align-items: center;
+  width: 30%;
 }
 
 .List-header h2 {
-  color: rgb(37, 36, 36)
+  font-size: xx-large;
 }
 
 .List-img {
@@ -64,6 +80,17 @@
   height: 4rem;
   border-radius: 100%;
   margin-right: 0.5rem;
+  background-color: white;
+}
+
+.List-favNum {
+  width: 15%;
+  text-align: left;
+}
+
+.List-item {
+  width: 15%;
+  text-align: left;
 }
 
 .List-note {
@@ -79,16 +106,22 @@
 }
 
 .AddToList-input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 0.5rem;
-  font-size: 1rem;
-  margin: 0.3rem 0rem
+  font-size: 1.3rem;
+  margin: 0.3rem 0rem;
+  border-radius: 0.5rem;
 }
 
 .AddToList-btn {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 0.5rem;
+  font-size: 1.3rem;
   cursor: pointer;
-  background-color: #0b5468;
-  font-weight: 700;
+  background-color: #0c586d;
+  font-weight: bold;
   color: white;
-  border: none
+  border: none;
+  border: 0.2rem solid rgba(0, 0, 0, 0.233);
+  border-radius: 0.5rem;
 }

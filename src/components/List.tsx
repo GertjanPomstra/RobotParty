@@ -19,8 +19,8 @@ const List: React.FC<IProps> = ({ robots }) => {
                         <img className="List-img" alt="" src={robot.imgUrl} />
                         <h2>{robot.name}</h2>
                     </div>
-                    <p>{robot.favNum}</p>
-                    <p>{robot.item}</p>
+                    <p className="List-favNum">{robot.favNum}</p>
+                    <p className="List-item">{robot.item}</p>
                     <p className="List-note">{robot.note}</p>
                 </li>
             )

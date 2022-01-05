@@ -50,7 +50,7 @@ const AddToList: React.FC<IProps> = ( {robots, setRobots} ) => {
 
     return (
         <div className="AddToList">
-        <input 
+        <input
             type="text"
             placeholder="Name"
             className="AddToList-input"
