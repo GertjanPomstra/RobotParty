@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/robotparty/static/css/main.e4d32b6a.css",
+    "main.js": "/robotparty/static/js/main.df734506.js",
+    "static/js/787.41ce4a84.chunk.js": "/robotparty/static/js/787.41ce4a84.chunk.js",
+    "index.html": "/robotparty/index.html",
+    "main.e4d32b6a.css.map": "/robotparty/static/css/main.e4d32b6a.css.map",
+    "main.df734506.js.map": "/robotparty/static/js/main.df734506.js.map",
+    "787.41ce4a84.chunk.js.map": "/robotparty/static/js/787.41ce4a84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4d32b6a.css",
+    "static/js/main.df734506.js"
+  ]
+}
